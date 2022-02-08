@@ -7,7 +7,7 @@ gsap.to(longMountain, {
       trigger:  'home-mountains',
       scrub: true,
     },
-    y : 50
+    y : 100
   });
   
   gsap.to(title, {
@@ -15,7 +15,7 @@ gsap.to(longMountain, {
       trigger:  'home-mountains',
       scrub: true,
     },
-    y : 1000
+    y : 2000
   });
 
 
