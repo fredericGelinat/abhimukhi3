@@ -23,6 +23,7 @@ body {
     object-fit: cover;
     object-position: center;
     position: absolute;
+    z-index: 2;
 }
 h1 {
     font-family: Martel Sans;
