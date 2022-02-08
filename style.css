@@ -7,29 +7,43 @@
         width: 100vw;
         height: 100vh;
      } 
-     canvas{
+
+@media screen and (min-width: 320px) and (max-width:760px) {
+  .responsiveColorHeader{
+    background-color: #000;
+    color: #fff;
+  }
+  
+}
+
+
+     /*canvas{
          display: block; 
-         /* background-color: #282828;   */
-        /* background-color: #437e85; */
+         background-color: #282828;  
+       background-color: #437e85; 
          background-color: #131414f3; 
         
         position:absolute;
         left:0;
         top:0;
         z-index:-1;
-     }
+     }*/
 
 /* Header */
 
 header {
-    /* background: url("/img/abhimukhi/imagesRangés/montage/METROGALLERIE.png"); */
+     /*background: url("/img/abhimukhi/imagesRangés/montage/METROGALLERIE.png"); */
     /* background: url("/img/abhimukhi/imagesRangés/nouveaux2021/heritierxx4.png"); */
     /* background: url("/img/abhimukhi/imagesRangés/origine/GRAPHGALLERIE.png"); */
-/* background: url('/img/abhimukhi/imagesRangés/premiers/persistanceGQallerie.png'); */
+background: url('/img/abhimukhi/imgNumériques/persistanceDivineFin.png'); 
+/*background: url(/img/abhimukhi/imgNumériques/COLORcERVEAUbIT.jpg);*/
+/*background:url('/img/abhimukhi/imagesRangés/origine/NOIREGALLERIE.png');*/
     background-size:contain;
-    background-position: top; 
-    height: 100vh;
+    background-position: bottom; 
+    height: 95vh;
+    width: 100vw;
     border-bottom: 1px solid #000;
+
 
 }
 

@@ -50,7 +50,7 @@ ctx.translate(innerWidth / 2, innerHeight / 2);
          return;
      }
      if(tour % 360 === 0){
-         x += 1;
+         x += 50;
         y += 50;
     }
 }
