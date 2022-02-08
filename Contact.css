@@ -23,7 +23,7 @@ body {
     object-fit: cover;
     object-position: center;
     position: absolute;
-    z-index: 2;
+  
 }
 h1 {
     font-family: Martel Sans;
@@ -46,7 +46,7 @@ h1 span{
         text-align: end;
         font-size: 4rem;
         left: 50%;
-        top: 25%;
+        top: 5%;
     }
 }
 .home-mountains img:nth-child(1){
